@@ -9,10 +9,13 @@ def evaluate(individual):
     for i in range(queensqty):
         for j in range(i+1, queensqty):
             if individual[i] == individual[j]:
+                print('h')
                 attacks += 1
-            if individual[i] == individual[j] + j - i:
+            if individual[i] == individual[j] + (j - i):
+                print('dd')
                 attacks += 1
-            if individual[i] == individual[j] - j + i:
+            if individual[i] == individual[j] - (j - i):
+                print('d^')
                 attacks += 1
 
     return attacks
