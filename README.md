@@ -20,4 +20,4 @@ Run bem-sucedida:
 - theta_0: 0
 - theta_1: 0
 - num_iterations: 100
-- mse: 10.351394181793477
+- MSE: 10.351394181793477
